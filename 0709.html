@@ -1,0 +1,429 @@
+﻿
+
+<html>
+    <head>
+        <title>Font Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="UTF-8">
+        <link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+        <link href='https://fonts.googleapis.com/earlyaccess/nanumpenscript.css' rel='stylesheet' type='text/css'>
+
+        <style>
+            textarea:hover,
+            textarea:active
+            {
+                outline:0px !important;
+                -webkit-appearance:none;
+            }
+            body{
+                background-color: #FAFAFA;
+            }
+            #logo_div{
+                margin: 1%;
+                text-align: center;
+            }
+            #logo{
+                width: 10%;
+            }
+            #check1_div{
+                margin-top: 1%;
+                text-align: center;
+            }
+            #check1_img1{
+                width: 15.6%;
+                margin-left: 1%;
+            }
+            #category_div{
+                text-align: center;
+            }
+            #category_span{
+            }
+            input[type=checkbox] {
+
+                position: relative;
+            }
+            .label{
+                width: 5.2%;
+                top:50%;
+                left:50%;
+                margin-bottom:-0.65%;
+
+            }
+            #check2_div{
+                margin-top: 3%;
+                text-align: center;
+            }
+            #check2_img1{
+                width: 15.6%;
+                margin-left: 1%;
+            }
+            #color_div{
+                text-align: center;
+                margin-bottom: 1%;
+            }
+            .figure{
+                display: inline-block;
+                width:4%;
+            }
+            .figure_img{
+                width: 104%;
+            }
+            .out_textarea{
+                resize: none;
+                width: 100%;
+                height: 200px;
+                padding-left: 10pt;
+                padding-right: 10pt;
+                color: black;
+            }
+            .out_div{
+                text-align: center;
+                display: inline-block;
+                width: 21%;
+                margin: 1%;
+
+                border: 1.5pt solid #EBEBEB;
+            }
+            #input_div{
+                text-align: center;
+                display: inline-block;
+                width: 15%;
+                border: 1.5pt solid #EBEBEB;
+            }
+            @font-face{ font-family:'ceg1'; src:url("https://cdn.jsdelivr.net/gh/gohyemi/linefont/a1.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'ceg2'; src:url("https://cdn.jsdelivr.net/gh/gohyemi/linefont/a2.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'ceg3'; src:url("https://cdn.jsdelivr.net/gh/gohyemi/linefont/a3.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'ceg4'; src:url("https://cdn.jsdelivr.net/gh/gohyemi/linefont/a4.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'ceg5'; src:url("https://cdn.jsdelivr.net/gh/gohyemi/linefont/a5.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'ceg6'; src:url("https://cdn.jsdelivr.net/gh/gohyemi/linefont/a6.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'ceg7'; src:url("https://cdn.jsdelivr.net/gh/gohyemi/linefont/a7.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'ceg8'; src:url("https://cdn.jsdelivr.net/gh/gohyemi/linefont/a8.woff") format("woff"); font-weight:normal;font-style:normal;}
+           
+            
+
+            @font-face{ font-family:'ces1'; src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoGoldenPierA.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'ces2'; src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'ces3'; src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'ces4'; src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'ces5'; src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'ces6'; src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'ces7'; src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/BMEULJIRO.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'ces8'; src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'ces9'; src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/SDKukdetopokki-aLt00.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'ces10'; src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/국립박물관문화재단클래식M.woff") format("woff"); font-weight:normal;font-style:normal;}
+           
+           
+
+            @font-face{ font-family:'ckg1'; src:url("https://cdn.jsdelivr.net/gh/gohyemi/linefont/b1.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'ckg2'; src:url("https://cdn.jsdelivr.net/gh/gohyemi/linefont/b2.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'ckg3'; src:url("https://cdn.jsdelivr.net/gh/gohyemi/linefont/b3.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'ckg4'; src:url("https://cdn.jsdelivr.net/gh/gohyemi/linefont/b4.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'ckg5'; src: url('https://cdn.jsdelivr.net/gh/gohyemi/linefont/b5.woff') format('woff'); font-weight: normal; font-style: normal; }
+            @font-face{ font-family:'ckg6'; src: url('https://cdn.jsdelivr.net/gh/gohyemi/linefont/b6.woff') format('woff'); font-weight: normal; font-style: normal; }
+            @font-face{ font-family:'ckg7'; src: url("https://cdn.jsdelivr.net/gh/gohyemi/linefont/b7.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'ckg8'; src:url("https://cdn.jsdelivr.net/gh/gohyemi/linefont/b8.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'ckg9'; src:url("https://cdn.jsdelivr.net/gh/gohyemi/linefont/b9.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'ckg10'; src:url("https://cdn.jsdelivr.net/gh/gohyemi/linefont/b10.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'ckg11'; src:url("https://cdn.jsdelivr.net/gh/gohyemi/linefont/b11.woff"); format('woff'); 'Sans-serif'; }
+            @font-face{ font-family:'ckg12'; src: url('https://cdn.jsdelivr.net/gh/gohyemi/linefont/b12.woff') format('woff'); font-weight:normal;font-style:normal;}
+            
+          
+
+
+            @font-face{ font-family:'cks1'; src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'cks2'; src:url("https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'cks3'; src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_ten@1.0/fromdamiM.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'cks4'; src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff") format("woff"); font-weight:normal;font-style:normal;}
+            @font-face{ font-family:'cks5'; src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff") format("woff"); font-weight:normal;font-style:normal;}
+            
+          
+
+
+            @font-face { font-family: 'inputFont'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulNamsanM.woff') format('woff'); font-weight: normal; font-style: normal; }
+            textarea{
+                border: 0pt solid #FAFAFA;
+                font-size: 18pt;
+            }
+            textarea:hover {
+                border: 0pt solid #FAFAFA;
+            }
+            textarea:focus {
+                border: 1.5pt solid #0012FF;
+            }
+        </style>
+        <script>
+            window.onload = function () {
+                var div = document.createElement('div');
+                div.style = "margin-left:12%; margin-right:10%;";
+                document.getElementById('main').appendChild(div);
+            }
+
+            //showBtn.addEventListener("click", showText);
+            function change_color(colors){
+                var y = document.getElementsByClassName('out_textarea');
+                var i;
+                document.getElementById("input_text").style.color = colors;
+                for (i = 0; i < y.length; i++) {
+                    y[i].style.color = colors;
+                }
+            }
+
+            function change_text(event){
+                var y = document.getElementsByClassName('out_textarea');
+                var i;
+                for (i = 0; i < y.length; i++) {
+                    y[i].value = event.target.value;
+                }
+            }
+
+            function change_text2(){
+                var x = document.getElementById("input_text").value;
+                var y = document.getElementsByClassName('out_textarea');
+                var i;
+                for (i = 0; i < y.length; i++) {
+                    y[i].value = x;
+                }
+            }
+
+            function font_checkbox(){
+                var y = document.getElementsByClassName('out_div');
+                while(0 < y.length) {
+                    y[0].parentNode.removeChild(y[0]);
+                }
+
+                var c1 = document.getElementById("cate_u_1");
+                var c2 = document.getElementById("cate_u_2");
+                var c3 = document.getElementById("cate_u_3");
+               var c4 = document.getElementById("cate_u_4");
+
+                var div = document.createElement('div');
+                div.style = "margin-left:14.9%; margin-right:10%";
+                if(c1.checked){
+
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/1/a1.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"영문 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ceg1; font-size: 20pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                    "                <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/1/a2.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"영문 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ceg2; font-size: 15pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                    "                <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/1/a3.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"영문 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ceg3; font-size: 30pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                    "                <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/1/a4.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"영문 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ceg4; font-size: 20pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                    "                <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/1/a5.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"영문 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ceg5; font-size: 30pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                    "                <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/1/a6.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"영문 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ceg6; font-size: 17pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                    "                <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/1/a7.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"영문 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ceg7; font-size: 15pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                    "                <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/1/a8.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"영문 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ceg8; font-size: 15pt;\"></textarea>\n" +
+                    "            </span>";
+
+
+
+
+
+                }
+                if(c2.checked){
+
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/2/b1.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"한글 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ces1; font-size: 15pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/2/b2.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"한글 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ces2; font-size: 15pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/2/b3.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"한글 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ces3; font-size: 15pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/2/b4.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"한글 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ces4; font-size: 20pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/2/b5.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"한글 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ces5; font-size: 15pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/2/b6.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"한글 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ces6; font-size: 15pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/2/b7.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"한글 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ces7; font-size: 15pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/2/b8.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"한글 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ces8; font-size: 15pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/2/b9.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"한글 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ces9; font-size: 15pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/2/b10.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"한글 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ces10; font-size: 15pt;\"></textarea>\n" +
+                    "            </span>";
+                 
+  
+                
+
+
+                }
+                if(c3.checked){
+
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/3/c1.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"영문 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ckg1; font-size: 20pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/3/c2.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"영문 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ckg2; font-size: 15pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/3/c3.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"영문 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ckg3; font-size: 15pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/3/c4.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"영문 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ckg4; font-size: 15pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/3/c5.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"영문 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ckg5; font-size: 15pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/3/c6.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"영문 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ckg6; font-size: 20pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/3/c7.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"영문 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ckg7; font-size: 15pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/3/c8.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"영문 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ckg8; font-size: 15pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/3/c9.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"영문 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ckg9; font-size: 30pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/3/c10.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"영문 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ckg10; font-size: 30pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/3/c11.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"영문 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ckg11; font-size: 30pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/3/c12.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"영문 텍스트만 입력하세요\" class=\"out_textarea\" style=\"font-family: ckg12; font-size: 30pt;\"></textarea>\n" +
+                    "            </span>";
+
+
+
+
+                }
+                if(c4.checked){
+
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/4/d1.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"한글텍스트만 입력해 주세요\" class=\"out_textarea\" style=\"font-family: cks1; font-size: 18pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/4/d2.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"한글텍스트만 입력해 주세요\" class=\"out_textarea\" style=\"font-family: cks2; font-size: 18pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/4/d3.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"한글텍스트만 입력해 주세요\" class=\"out_textarea\" style=\"font-family: cks3; font-size: 25pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/4/d4.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"한글텍스트만 입력해 주세요\" class=\"out_textarea\" style=\"font-family: cks4; font-size: 20pt;\"></textarea>\n" +
+                    "            </span>";
+                div.innerHTML += "<span class='out_div'>\n" +
+                        "               <img src=\"http://iklim90.cafe24.com/fontdemo/neonline/20200708/font/4/d5.png\" style=\"width: 100%; text-align: left\"/>\n" +
+                    "                <textarea placeholder=\"한글텍스트만 입력해 주세요\" class=\"out_textarea\" style=\"font-family: cks5; font-size: 20pt;\"></textarea>\n" +
+                    "            </span>";
+
+
+ 
+
+
+
+                }
+                document.getElementById('main').appendChild(div);
+                change_text2();
+                var y = document.getElementsByClassName('out_textarea');
+                var i;
+                for (i = 0; i < y.length; i++) {
+                    y[i].style.color = document.getElementById("input_text").style.color;
+                }
+            }
+        </script>
+    </head>
+    <body>
+    <!--https://cdn.jsdelivr.net/gh/OhShinHyeok/fonttest@1.2/cks1-webfont.woff-->
+        <div id="logo_div">
+            <img src="http://iklim90.cafe24.com/font/logo1.png" name="img1" id="logo"/>
+        </div>
+        <div id="check1_div">
+            <img src="http://iklim90.cafe24.com/fontdemo/neonline/20200708/main/logo3.png
+" id="check1_img1"/>
+        </div>
+        <div id="category_div">
+            <span id="category_span">
+                <img src="" name="img2"/>
+                <span class="checkBox">
+                    <input type="checkbox" name="categoryUse" id="cate_u_1" value="1" class="filled-in" onclick="font_checkbox();"/>
+                    <img src="http://iklim90.cafe24.com/fontdemo/neonline/20200708/main/check1_1.png" class="label"/>
+                </span>
+                <span class="checkBox">
+                    <input type="checkbox" name="categoryUse" id="cate_u_2" value="2" class="filled-in" onclick="font_checkbox();"/>
+                    <img src="http://iklim90.cafe24.com/fontdemo/neonline/20200708/main/check1_2.png" class="label"/>
+                </span>
+                <span class="checkBox">
+                    <input type="checkbox" name="categoryUse" id="cate_u_3" value="3" class="filled-in" onclick="font_checkbox();"/>
+                    <img src="http://iklim90.cafe24.com/fontdemo/neonline/20200708/main/check1_3.png" class="label"/>
+                </span>
+                <span class="checkBox">
+                    <input type="checkbox" name="categoryUse" id="cate_u_4" value="4" class="filled-in" onclick="font_checkbox();">
+                    <img src="http://iklim90.cafe24.com/fontdemo/neonline/20200708/main/check1_4.png" class="label"/>
+                </span>
+            </span>
+        </div>
+        <div id="check2_div">
+            <img src="http://iklim90.cafe24.com/fontdemo/neonline/20200708/main/logo4.png" id="check2_img1"/>
+             </div>
+        <div id="color_div">
+           
+
+        </div>
+        <div style="text-align: center;">
+            <span id="input_div">
+                <img src="http://iklim90.cafe24.com/font/logo2.png" style="width: 80%; text-align: left"/>
+                <textarea placeholder="텍스트를 입력해 보세요." id="input_text" style="resize: none; width: 100%; height: 200px; padding-left: 10pt; padding-right: 10pt; font-family: inputFont;" onInput="change_text(event);"></textarea>
+            </span>
+        </div>
+        <div id="main"></div>
+    </body>
+</html>
